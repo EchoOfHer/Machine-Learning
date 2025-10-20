@@ -1,0 +1,10 @@
+Organize the results from all experiments in a table, having the following columns:
+1. Ordinally encoded features
+2. One-hot encoded features
+3. Raw numerical features
+4. Standard scaled numerical features
+5. Model name 
+6. F1 
+7. Precision
+8. Recall
+9. Accuracy

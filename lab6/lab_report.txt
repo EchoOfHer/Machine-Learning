@@ -1,0 +1,7 @@
+Organize the results from all experiments in a table, having the following columns:
+1. Model name 
+2. Training techniques
+3. F1 
+4. Precision
+5. Recall
+6. Accuracy
