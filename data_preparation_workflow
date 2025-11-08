@@ -1,0 +1,10 @@
+digraph {
+	"Load Dataset" -> "Inspect Data (shape, types, missing values)"
+	"Inspect Data (shape, types, missing values)" -> "Handle Missing Values"
+	"Handle Missing Values" -> "Remove Duplicates/Outliers"
+	"Remove Duplicates/Outliers" -> "Encode Categorical Variables"
+	"Encode Categorical Variables" -> "Scale/Normalize Numeric Features"
+	"Scale/Normalize Numeric Features" -> "Feature Selection or Engineering"
+	"Feature Selection or Engineering" -> "Split Data (Train/Test)"
+	"Split Data (Train/Test)" -> "Save Prepared Dataset"
+}
